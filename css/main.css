@@ -3,6 +3,13 @@
 Start of the CSS 
 
 */
+
+
+ /*-----------------------------------------------------------
+     Declaration of the fonts of the website using google fonts.             
+  -----------------------------------------------------------*/
+
+
   @font-face {
       font-family: 'Raleway';
       src: url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'),
@@ -19,12 +26,15 @@ Start of the CSS
       font-style: serif;
   }
 
+ /*-----------------------------------------------------------
+     Root variable for global escope to use var funcion              
+  -----------------------------------------------------------*/
 
   :root {
     --primary-color:        #ff0000;
     --white-color:          #ffffff;
     --dark-color:           #171819;
-    --about-bg-color:       #ffffff;
+    --about-background-color:       #ffffff;
 
     --gray-color:           #909090;
     --link-color:           #404040;
@@ -60,11 +70,6 @@ Start of the CSS
   /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
-
-  h1,h2,h3,h4,h5,h6 {
-    font-weight: var(--font-weight-thin);
-    line-height: normal;
-  }
 
   h1 {
     font-size: var(--h1-font-size);
@@ -115,61 +120,18 @@ Start of the CSS
     letter-spacing: 0;
   }
 
+  h1,h2,h3,h4,h5,h6 {
+    font-weight: var(--font-weight-thin);
+    line-height: normal;
+  }
+
   .section {
-    padding: 7rem 0;
-  }
-
- /*---------------------------------------
-     Buttons       
-  -----------------------------------------*/
-
-
-  .custom-btn:hover {
-    color: var(--primary-color);
-  }
-
-  .custom-btn {
-    background: transparent;
-    border-radius: var(--border-radius-small);
-    padding: 14px 24px;
-    color: var(--white-color);
-    font-size: var(--menu-font-size);
-    font-weight: var(--font-weight-normal);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    white-space: nowrap;
-    transition: all 0.3s ease;
-  }
-
-
-  .custom-btn:focus {
-    box-shadow: none;
-  }
-
-
-
-  .custom-btn.bg-color:hover,
-  .custom-btn.bg-color:focus {
-    background: var(--white-color);
-    border-color: transparent;
-    color: var(--primary-color);
-  }
-  .custom-btn.bordered:hover,
-  .custom-btn.bordered:focus,
-
-  .bg-color {
-    background: var(--primary-color);
-    color: var(--white-color);
-  }
-
-  .bordered {
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
+    padding: 5.5rem 0;
   }
 
 
   /*---------------------------------------
-     GENERAL CSS        
+     General CSS content      
   -----------------------------------------*/
 
 
@@ -201,9 +163,59 @@ Start of the CSS
     box-sizing: border-box;
   }
 
+
+   /*---------------------------------------
+     Buttons       
+  -----------------------------------------*/
+
+
+  .btn-custom:hover {
+    color: var(--primary-color);
+  }
+
+  .btn-custom {
+    background: transparent;
+    border-radius: var(--border-radius-small);
+    padding: 14px 24px;
+    color: var(--white-color);
+    font-size: var(--menu-font-size);
+    font-weight: var(--font-weight-normal);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+  }
+
+
+  .btn-custom:focus {
+    box-shadow: none;
+  }
+
+
+
+  .btn-custom.background-color:hover,
+  .btn-custom.background-color:focus {
+    background: var(--white-color);
+    border-color: transparent;
+    color: var(--primary-color);
+  }
+  .btn-custom.bordered:hover,
+  .btn-custom.bordered:focus,
+
+  .background-color {
+    background: var(--primary-color);
+    color: var(--white-color);
+  }
+
+  .bordered {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+  
+
   /* BG OVERLAY */
 
-  .bg-overlay {
+  .background-effect {
     background: var(--dark-color);
     position: absolute;
     top: 0;
@@ -501,7 +513,7 @@ Start of the CSS
   -----------------------------------------*/
 
   .about {
-    background: var(--about-bg-color);
+    background: var(--about-background-color);
   }
 
   .about-working-hours {
@@ -514,7 +526,7 @@ Start of the CSS
     opacity: 0.85;
   }
 
-  .team-thumb {
+  .profile-thumb {
     position: relative;
   }
 
