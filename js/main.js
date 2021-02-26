@@ -18,3 +18,30 @@ $(function () {
    }
  })
 
+// SCRIPT FOR RUN THE OWL CARROUSEL
+
+
+
+
+$(document).ready(function() {
+     
+  $("#testimonial-slider").owlCarousel({
+ 
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      autoplay: true,
+      items : 1, 
+      autoPlay: 5000,
+     
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+});
+
+

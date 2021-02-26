@@ -46,15 +46,15 @@ Start of the CSS
     --font-weight-light:    300;
     --font-weight-thin:     100;
 
-    --h1-font-size:         48px;
-    --h2-font-size:         36px;
-    --h3-font-size:         28px;
-    --h4-font-size:         24px;
-    --h5-font-size:         22px;
-    --h6-font-size:         22px;
-    --p-font-size:          18px;
-    --base-font-size:       16px;
-    --menu-font-size:       18px;
+    --h1-font-size:         46px;
+    --h2-font-size:         34px;
+    --h3-font-size:         26px;
+    --h4-font-size:         22px;
+    --h5-font-size:         20px;
+    --h6-font-size:         20px;
+    --p-font-size:          16px;
+    --base-font-size:       14px;
+    --menu-font-size:       16px;
 
     --border-radius-large:  100%;
     --border-radius-small:  2px;
@@ -212,6 +212,13 @@ Start of the CSS
     color: var(--primary-color);
   }
   
+
+  .btn {
+    background: var(--primary-color);
+    color: var(--white-color)
+    
+
+     }
 
   /* BG OVERLAY */
 
@@ -444,52 +451,52 @@ Start of the CSS
 
 
   /*---------------------------------------
-     SCHEDULE             
+     results             
   -----------------------------------------*/
 
-  .schedule {
+  .results {
     background: var(--dark-color);
   }
 
-  .schedule-table {
+  .results-table {
     display: table;
     border: 0;
     text-align: center;
   }
 
-  .schedule-table strong,
-  .schedule-table span {
+  .results-table strong,
+  .results-table span {
     display: block;
     text-align: center;
   }
 
-  .schedule-table strong {
+  .results-table strong {
     color: var(--white-color);
   }
 
-  .schedule-table span {
+  .results-table span {
     color: var(--gray-color);
   }
 
-  .schedule-table span,
-  .schedule-table small {
+  .results-table span,
+  .results-table small {
     font-size: var(--menu-font-size);
     text-transform: uppercase;
   }
 
-  .schedule-table small {
+  .results-table small {
     position: relative;
     top: 10px;
   }
 
   .table .thead-light th,
-  .schedule-table tr td:first-child {
+  .results-table tr td:first-child {
     background: var(--primary-color);
     border: 1px solid #212122;
     color: var(--white-color);
   }
 
-  .schedule-table .thead-light th {
+  .results-table .thead-light th {
     border-bottom: 0;
     text-transform: uppercase;
   }
@@ -677,7 +684,7 @@ Start of the CSS
       text-align: center;
     }
 
-    .schedule-table {
+    .results-table {
       display: block;
     }
 
@@ -784,3 +791,7 @@ Start of the CSS
     transition: all 0.3s ease 0s;
 }
 .owl-theme .owl-controls .owl-page.active span{ background: #ff0000; }
+
+
+
+
