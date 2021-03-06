@@ -52,8 +52,9 @@
 
     <div class="loader_bg">
 
-        <div class="loader"></div>
+        <div class="loader">
 
+        </div>
     </div>
 
     <!-- NAV BAR -->
@@ -608,7 +609,10 @@
     </script>
 
     <script>
-        
+        setTimeout(function () {
+
+            $('.loader_bg').fadeToggle();
+        }, 2500);
     </script>
 
 
