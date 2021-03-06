@@ -216,8 +216,6 @@ Start of the CSS
   .btn {
     background: var(--primary-color);
     color: var(--white-color)
-    
-
      }
 
   /* BG OVERLAY */
@@ -234,6 +232,9 @@ Start of the CSS
     opacity: 0.85;
   }
 
+
+
+  
 
   /*---------------------------------------
      MODAL              
@@ -792,6 +793,366 @@ Start of the CSS
 }
 .owl-theme .owl-controls .owl-page.active span{ background: #ff0000; }
 
+/*  Footer css */
+.element-btn .element-fill-btn {
+  background-color: red;
+  border: 0;
+  color: #fff;
+  padding: 13px 5px;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 252px;
+  margin: 0 auto;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 50px -10px rgba(255, 10, 120, 1);
+  font-family: var(--base-font-family);
+ 
+}
+.fill-btn {
+  background-color:red;
+  border: 0;
+  color: #fff;
+  padding: 13px 5px;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  width: 252px;
+  margin: 0 auto;
+  border-radius: 25px;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+ 
+}
+.fill-btn:hover,
+.element-btn .element-fill-btn:hover {
+  background-color: #201f1f;
+  box-shadow: 0px 10px 50px -10px rgb(32, 31, 31);
+}
 
 
+.footer {
+  position: relative;
+  background-color: white;
+  padding:50px 0px;
+}
 
+.footerBg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0.13;
+  background-color: white;
+
+  width: 100%;
+  height: 100%;
+}
+
+.form-Box input[type="text"],
+.form-Box input[type="email"],
+.form-Box input[type="passowrd"],
+.form-Box textarea {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: transparent;
+  padding: 5px 25px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: black;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+.form-Box textarea {
+  height: 113px;
+  padding: 15px 25px;
+  resize: none;
+}
+.form-Box .b_effect:focus,
+.subscribe form input:focus {
+  border-color: red;
+}
+
+.form-Box .fill-btn {
+  position: static;
+  transform: translate(0%, 0);
+  -webkit-transform: translate(0%, 0);
+  -moz-transform: translate(0%, 0);
+  -ms-transform: translate(0%, 0);
+  width: 184px;
+  font-family: var(--base-font-family);
+}
+
+.fTitle {
+  font-weight: 900;
+  color: black;
+  text-transform: uppercase;
+   margin-bottom: 20px;
+   font-family: var(--base-font-family);
+}
+
+.fTitle span {
+  color: red;
+}
+
+.contact-address ul li,
+.contact-address ul li a {
+  font-family: var(--base-font-family);
+  color: black;
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 32px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+.contact-address {
+  font-family: var(--base-font-family);
+  padding: 0 15%;
+}
+
+.contact-address ul li i {
+  margin-right: 15px;
+  display: inline-block;
+  float: left;
+  line-height: 32px;
+}
+
+.contact-address ul li span {
+  font-family: var(--base-font-family);
+  display: table;
+}
+
+.contact-address ul li a:hover {
+  color:red;
+}
+
+.subscribe form {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 60px;
+  font-family: var(--base-font-family);
+}
+
+.subscribe form input {
+  font-family: var(--base-font-family);
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: transparent;
+  padding: 5px 215px 5px 25px;
+  font-size: 14px;
+  color: black;
+  
+}
+
+.subscribe form .fill-btn {
+  bottom: auto;
+  top: 0;
+  right: 0;
+  left: auto;
+  transform: translate(0%, 0);
+  -webkit-transform: translate(0%, 0);
+  -moz-transform: translate(0%, 0);
+  -ms-transform: translate(0%, 0);
+  width: 209px;
+}
+
+.social-icons ul li {
+  display: inline-block;
+  float: left;
+  color: black;
+  text-align: center;
+  line-height: 43px;
+  position: relative;
+  width: 43px;
+  height: 43px;
+  margin-right: 28px;
+}
+
+.social-icons ul li a {
+  color: black;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+}
+
+.social-icons ul li:before {
+  content: "";
+  width: 43px;
+  height: 43px;
+  display: inline-block;
+  position: absolute;
+  border: 1px solid red;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+.social-icons ul li:last-child {
+  margin: 0;
+}
+
+.social-icons ul li:hover:before {
+  background:red;
+}
+
+
+/* Copyright css */
+
+.copyright {
+  padding: 51.5px 0;
+  text-align: center;
+  background-color: black;
+}
+
+.copyright h6 {
+  font-size: 14px;
+  font-style: italic;
+  color: #737373;
+}
+
+.copyright h6 a {
+  color: red;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+.copyright h6 a:hover {
+  color: #201f1f;
+}
+
+
+.pricingTable{
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 20px 0 35px;
+  box-shadow: 0 0 10px -3px rgba(0,0,0,0.3);
+}
+.pricingTable .pricingTable-header{
+  background: linear-gradient(to right, #F37A21, #F5B259 20px, #F5B259 13px, #F37A21 38px, #F37A21 40%, #F8931F 60%);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 14px 0 7px;
+  margin: 0 20px 20px 0;
+  clip-path: polygon(0 0, 0 100%, 85% 100%, 100% 50%, 85% 0);
+}
+.pricingTable .title{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 65px;
+  margin: 0;
+}
+.pricingTable .price-value{
+  color: #000;
+  padding: 0 15px;
+  margin: 0 0 20px;
+}
+.pricingTable .price-value .amount{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.pricingTable .price-value .duration{
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+.pricingTable .pricing-content{
+  text-align: left;
+  padding: 25px 15px;
+  margin: 0 0 30px;
+  border: 1px solid #e7e7e7;
+  border-left: none;
+  border-right: none;
+  list-style: none;
+  display: inline-block;
+}
+.pricingTable .pricing-content li{
+  color: #777;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  padding: 0 0 0 40px;
+  margin: 0 0 12px;
+  position: relative;
+}
+.pricingTable .pricing-content li:last-child{ margin-bottom: 0; }
+.pricingTable .pricing-content li:before{
+  content: "\f00c";
+  color: #fff;
+  background: #F89923;
+  font-family: "Font Awesome 5 Free";
+  font-size: 12px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 24px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+.pricingTable .pricing-content li.disable:before{
+  content: "\f00d";
+  background: #ED1925;
+}
+.pricingTable .pricingTable-signup a{
+  color: #fff;
+  background: linear-gradient(#FAAF3C, #F89923);
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 200px;
+  padding: 6px 6px 5px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+.pricingTable .pricingTable-signup a:hover{
+  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.15);
+}
+.pricingTable.green .pricingTable-header{
+  background: linear-gradient(to right, #8DC53C, #E1E530 20px, #E1E530 13px, #8DC53C 38px, #8DC53C 40%, #9BBF3B 60%);
+}
+.pricingTable.green .pricingTable-signup a{ background: linear-gradient(#72BC4B, #54A445); }
+.pricingTable.green .pricing-content li:before{ background: #54A445; }
+.pricingTable .pricing-content li.disable:before{ background: #ED1925; }
+@media only screen and (max-width: 990px){
+  .pricingTable{ margin-bottom: 40px; }
+}
