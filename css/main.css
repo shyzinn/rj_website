@@ -14,7 +14,7 @@ Start of the CSS
       font-family: 'Raleway';
       src: url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'),
           url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-      font-weight: 600;
+      font-weight: 800;
       font-style: normal;
   }
 
@@ -639,7 +639,7 @@ Start of the CSS
   .social-icon {
     position: relative;
     padding: 0;
-    margin: 5px 0 0 0;
+    margin: 2px 0 0 0;
   }
 
   .social-icon li {
