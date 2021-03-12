@@ -255,6 +255,14 @@ a:focus {
 .modal-footer {
   border: 0;
   padding: 0;
+
+  
+}
+
+.modal-gallery {
+ 
+
+ 
 }
 
 .membership-form a {
@@ -1100,26 +1108,26 @@ img {
   position: absolute;
   top: calc(50vh - 75px);
   left: calc(50vw - 75px);
+    position: relative;
+  
+  z-index: 999999;
+}
+
+.im {
+ 
+  position: absolute;
+   
 }
 
 .loader:before,
 loader:after {
-  content: '';
-  border: 1em solid red;
-  border-radius: 50%;
-  width: inherit;
-  height: inherit;
-  position: absolute;
-  top: 0;
-  left: 0;
-  animation: loader 2s linear infinite;
-  opacity: 0;
+
 
 }
 
 .loader:before {
 
-  animation-delay: .5s;
+  animation-delay: .2s;
 }
 
 @keyframes loader {
@@ -1143,3 +1151,15 @@ loader:after {
 
 }
 
+
+
+
+
+.card-pricing.popular {
+  z-index: 1;
+  border: 3px solid #007bff;
+}
+.card-pricing .list-unstyled li {
+  padding: .5rem 0;
+  color: #6c757d;
+}
