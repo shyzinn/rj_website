@@ -227,7 +227,7 @@ if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
 						<?php } ?>
 						
 
-                        <a href="index.php" class="btn btn-custom bordered mt-3" data-aos="fade-up"
+                        <a href="index.html" class="btn btn-custom bordered mt-3" data-aos="fade-up"
                             data-aos-delay="300">Home</a>
 
 
